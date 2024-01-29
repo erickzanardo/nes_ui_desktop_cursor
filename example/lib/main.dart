@@ -1,3 +1,5 @@
+// ignore_for_file: public_member_api_docs
+
 import 'package:flutter/material.dart';
 import 'package:nes_ui/nes_ui.dart';
 import 'package:nes_ui_desktop_cursor/nes_ui_desktop_cursor.dart';
@@ -62,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
           _cursor,
         ),
         child: Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.all(8),
           child: NesContainer(
             width: double.infinity,
             height: double.infinity,
