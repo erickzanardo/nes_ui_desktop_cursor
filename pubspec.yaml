@@ -1,6 +1,6 @@
 name: nes_ui_desktop_cursor
 description: A flutter package that allows Nes UI Icon's to be used a mouse cursor on desktop
-version: 0.1.0
+version: 0.2.0
 repository: https://github.com/erickzanardo/nes_ui_desktop_cursor
 
 environment:
@@ -13,7 +13,7 @@ dependencies:
     sdk: flutter
   flutter_custom_cursor: ^0.0.4
   image: ^4.1.4
-  nes_ui: ">=0.14.0 <0.16.0"
+  nes_ui: ">=0.14.0 <1.0.0"
   uuid: ^4.3.3
 
 dev_dependencies:
